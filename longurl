@@ -1,0 +1,11 @@
+#!/bin/bash
+
+E_BADARGS=65
+
+if [ ! -n "$1" ]
+then
+  echo "Usage: `basename $0` [url]"
+  exit $E_BADARGS
+fi
+
+curl --head -s $1 | awk '/^Location:/' | sed 's/^Location: //'

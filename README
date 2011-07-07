@@ -1,0 +1,23 @@
+These are random shell tools that I've put together over the years to help with irritating repetitive tasks that come up frequently while developing websites.
+
+They may or may not be usable, well-written.
+
+They may or may not be sensible alternatives to some alternative command-line tool, web-based workflow or magic goat's-blood-powered ritual that you use to get through your day.
+
+However, they work for me.
+
+More will be added over time.
+
+== Currently:
+
+longurl [url] - takes a URL from a URL-shortening service and attempts to dig up the original URL it references. This depends on having curl on your system.
+
+== Coming as soon as I clean them up:
+
+fbtest - a perl script for creating, deleting, reviewing and accessing Facebook API test users for your application key(s)
+
+ts - a perl script for manipulating Unix timestamps. Mainly, it will convert any timestamp to human time, and more importantly provides an easy way to generate timestamps an arbitrary period in the past or future, with commands like "ts - 4 hours"
+
+== Further to do:
+
+Maybe a simple way to install to /usr/local/bin, some simple manpages, and a lovely pink bow on top.
